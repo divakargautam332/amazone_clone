@@ -1,0 +1,324 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #131A22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+
+
+
+/* FIRST DIV */
+
+    #logo{
+        color: #FFFFFF;
+    height: 50px;
+    width: 128px;
+    background-image: url(/classroom/Amazon-Logo-.webp);
+    background-size: cover;
+    
+}
+#loc{
+    height: 50px;
+    width: 215px;
+    display: flex;
+
+    
+}
+#locl{
+    height: 50px;
+    width: 20px;
+    align-content: center;
+}
+#dl{
+    height: 50px;
+    width: 195px;
+    align-content: center;
+}
+
+
+
+
+/* SECOND DIV */
+
+#sbar{
+    height: 60px;
+    width: 347px;
+    
+    
+    display: flex;
+    align-items: center;
+}
+#All{
+    height: 39px;
+    width: 52px;
+    text-align: center;
+    border-left: 5px;
+    background-color: #E6E6E6;
+    align-content: center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+#place{
+    height: 40px;
+    width: 243px;
+    align-content: center;
+}
+#sicon{
+    height: 39px;
+    width: 45px;
+    background-color: #FEBD69;
+    text-align: center;
+    align-content: center;
+    border-top-right-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+/* THIRD DIV */
+
+#flag{
+    height: 50px;
+    width: 73px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+
+/* FOURTH DIV */
+
+#link{
+    height: 50px;
+    width: 131px;
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+/* FIVTH DIV */
+
+#return{
+    height: 50px;
+    width: 76px;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+/* SIX DIV */
+
+#card{
+    height: 50px;
+    width: 84px;
+    text-align: center;
+    align-content: center;
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+
+
+
+
+/* NAVBAR TWO */
+
+#navbartwo{
+    height: 39px;
+    width: 100%;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+
+
+
+
+
+/* MAIN PART */
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #E6E6E6;
+
+}
+#add ul{
+    /* padding: 50px;
+    height: 200px;
+    width: 1250px;
+    background-image: url(/classroom/firstback.jpg);
+    background-size: cover; */
+    display: flex;
+    overflow-y: hidden;
+}
+#add-img{
+    padding-top: 98px;
+    max-width: 100%;
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%) ;
+}
+#add a{
+    position: absolute;
+    top: 20%;
+    z-index: 1;
+    padding: 5vh;
+    background-color: #ffffff4f;
+    color: #0000007b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+#control-next{
+    right: 0;
+}
+
+
+
+#contant{
+    margin-top: -300px;
+    height: 1350px;
+    width: 1350px;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#first{
+    z-index: 0;
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#second{
+    z-index: 0;
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#third{
+    z-index: 0;
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#four{
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#five{
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#six{
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#seven{
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#eight{
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#nine{
+    height: 420px;
+    width: 400px;
+    
+    background-color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.same{
+    height: 150px;
+    width: 170px;
+}
+
+
+
+
+/* last style */
+
+#footer{
+    height: 300px;
+    width: 1350px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: center;
+}
+#secondlogo{
+    height: 50px;
+    width: 128px;
+    background-image: url(/classroom/Amazon-Logo-.webp);
+    background-size: cover;
+    /* display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 640px; */
+}
